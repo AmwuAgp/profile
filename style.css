@@ -50,11 +50,49 @@ h2 {
    color: white;
 }
 
-news {
+.profile {
    margin: top;
 }
 
 main {
    margin: 30px;
    margin-top: 100px;
+}
+
+.icon img {
+   width: 64px;
+   margin: 0;
+   padding: 0;
+}
+
+.sns h3 {
+   color: white;
+   margin-top: 35px;
+}
+
+.sns {
+   display: flex;
+}
+
+p {
+   margin-left: 20px;
+   color: white;
+}
+
+h3 {
+   color: white;
+   margin-left: 10px;
+}
+
+.red {
+   color: red;
+}
+
+.center {
+   text-align: center;
+}
+
+.red-center {
+   color: red;
+   text-align: center;
 }
