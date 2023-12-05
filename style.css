@@ -4,12 +4,12 @@ body {
    margin: 0;
    padding: 0px;
    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-   background-color: black;
+   background-color: #202020;
 }
 
 header {
    width: 100%;
-   padding: 30px 4% 10px;
+   padding: 20px 4% 10px;
    background-color: rgba(0, 0, 0, 0.7);
    position: fixed;
    top: 0;
@@ -20,7 +20,7 @@ header {
 h1 {
    margin: 10px;
    padding: 0;
-   font-size: 20px;
+   font-size: 25px;
 }
 
 a {
@@ -39,7 +39,7 @@ ul {
 
 li {
    margin: 0 0 0 15px;
-   font-size: 14px;
+   font-size: 20px;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav {
 
 h2 {
    color: white;
-   margin: 20px;
+   margin-left: 20px;
 }
 
 .profile {
@@ -75,13 +75,13 @@ main {
 }
 
 p {
-   margin: 40px;
+   margin-left: 40px;
    color: white;
 }
 
 h3 {
    color: white;
-   margin: 30px;
+   margin-left: 30px;
 }
 
 .red {
@@ -92,32 +92,23 @@ h3 {
    text-align: center;
 }
 
-.cleard {
-   background: rgba(0, 0, 0, 0.5);
-}
-
 .about {
-   background-image: url(about.jpg);
-   background-size: cover;
-}
-
-.career {
-   background-image: url(career.jpg);
-   background-size: cover;
+   margin-top: 20px;
+   background-size: cover; 
 }
 
 .hobby {
-   background-image: url(hobby.jpg);
+   margin-top: 20px;
    background-size: cover;
 }
 
 .schoollife {
-   background-image: url(schoollife.jpg);
+   margin-top: 20px;
    background-size: cover;
 }
 
 .sns-bak {
-   background-image: url(sns.jpg);
+   margin-top: 20px;
    background-size: cover;
 }
 
@@ -134,7 +125,7 @@ div {
    justify-content: center;
    align-items: center;
    height: 100vh;
-   background-image: url(top.jpg);
+   background-image: url(https://amwuagp.github.io/profile/top.jpg);
    background-size: cover;
    box-sizing: border-box;
    margin-top: 0;
@@ -143,10 +134,28 @@ div {
 }
 
 .top h1 {
-   font-size: 40px;
+   font-size: 50px;
 }
 
 .map {
    margin-left: 40px;
-   margin-right: 40px;
+}
+
+iframe{
+   margin-left: 50px;
+}
+
+.flex{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.gray{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.circle{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
 }
